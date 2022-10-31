@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "github>ladzaretti/repo-a:renovate.json",
+    ":separateMajorReleases"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["luxon"],
+      "allowedVersions": "<3.0.4"
+    }
+  ]
+}
